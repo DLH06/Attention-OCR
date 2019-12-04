@@ -18,7 +18,7 @@ class ExpConfig:
     MODEL_DIR = 'train' # the directory for saving and loading model parameters (structure is not stored)
     LOG_PATH = 'log.txt'
     OUTPUT_DIR = 'results' # output directory
-    STEPS_PER_CHECKPOINT = 500 # checkpointing (print perplexity, save model) per how many steps
+    STEPS_PER_CHECKPOINT = 100 # checkpointing (print perplexity, save model) per how many steps
 
     # Optimization
     NUM_EPOCH = 1000
